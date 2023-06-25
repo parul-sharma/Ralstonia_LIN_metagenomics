@@ -4,11 +4,11 @@
 1.  Download the preferred database :
    - Kraken2 database 
       ```
-      curl -o kraken-db.tar.gz https://osf.io/u4tq8/download
+      wget -O kraken2-db.tar.gz https://osf.io/u4tq8/download
       ```
    - Extract the contents of the file :
      ```
-     tar xvf kraken-db.tar.gz 
+     tar xvf kraken2-db.tar.gz 
      ```
      
  2. Clone this github directory with git clone https://github.com/parul-sharma/Ralstonia_LIN_metagenomics.git
