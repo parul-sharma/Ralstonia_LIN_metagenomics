@@ -8,7 +8,7 @@
       ```
    - Extract the contents of the file :
      ```
-     tar xcf kraken-db.tar.gz 
+     tar xvf kraken-db.tar.gz 
      ```
      
  2. Clone this github directory with git clone https://github.com/parul-sharma/Ralstonia_LIN_metagenomics.git
