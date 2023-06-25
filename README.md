@@ -3,9 +3,9 @@
 ### Steps for analysis with "Kraken2"
 1.  Download the preferred database :
    - Kraken2 database 
-     ```
-    curl -o kraken-db.tar.gz https://osf.io/u4tq8/download
-    ```
+      ```
+      curl -o kraken-db.tar.gz https://osf.io/u4tq8/download
+      ```
    - Extract the contents of the file :
      ```
      tar xcf kraken-db.tar.gz 
