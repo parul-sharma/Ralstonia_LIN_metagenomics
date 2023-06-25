@@ -42,9 +42,13 @@
 ### Steps for analysis with "Krakenuniq"
 1.  Download the preferred database:
    - Krakenuniq database 
-        - Go to link: https://drive.google.com/file/d/1saW21wdkTwjaTWPXcTDyyRG4DiuCIAnG/view?usp=sharing 
-        - Download zipped file 
-        - Unzip the contents
+        ```
+      wget -O kuniq-db.tar.gz https://osf.io/9sfyq/download
+      ```
+   - Extract the contents of the file :
+     ```
+     tar xvf kuniq-db.tar.gz 
+     ```
 
  2. Clone this github directory with git clone https://github.com/parul-sharma/Ralstonia_LIN_metagenomics.git
  3. Analyze metagenomic sample from the test_samples directory
