@@ -3,9 +3,13 @@
 ### Steps for analysis with "Kraken2"
 1.  Download the preferred database :
    - Kraken2 database 
-        - Go to link: https://drive.google.com/file/d/18v4jepSoDxj8mEKLXoJNDrsM26r3nAxd/view?usp=share_link 
-        - Download zipped file 
-        - Unzip the contents
+     ```
+    curl -o kraken-db.tar.gz https://osf.io/u4tq8/download
+    ```
+   - Extract the contents of the file :
+     ```
+     tar xcf kraken-db.tar.gz 
+     ```
      
  2. Clone this github directory with git clone https://github.com/parul-sharma/Ralstonia_LIN_metagenomics.git
  3. Analyze metagenomic sample from the test_samples directory
