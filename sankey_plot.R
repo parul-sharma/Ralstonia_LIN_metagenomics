@@ -8,7 +8,7 @@ if (length(args) != 1) {
 }
 
 input_file <- args[1]
-input <- read.delim(input_file)
+input <- read.delim(input_file, sep =',')
 
 ##input <- read.delim("~/Desktop/LIN-kraken/Ralstonia/Sankey-plots/brc1_c0.finalLINoutput.txt")
 
