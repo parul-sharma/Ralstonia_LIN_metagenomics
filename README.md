@@ -1,5 +1,5 @@
 # Ralstonia_LIN_metagenomics
-## Workflow for accurately detecting Ralstonia pathogens from meetagnomics samples with sequevar-level specificity.
+## Workflow for accurately detecting Ralstonia pathogens from metagnomics samples with sequevar-level specificity.
 ### Steps for analysis with "Kraken2"
 1.  Download the preferred database :
    - Kraken2 database 
